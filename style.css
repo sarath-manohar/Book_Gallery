@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+header{
+    background-color: rgb(90, 89, 89);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+header button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    margin: 5px;
+}
+.banner{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/294/880/small/reading-book-web-banner-design-student-reading-book-on-stack-of-book-to-get-inspiration-online-education-digital-classroom-e-learning-concept-header-or-footer-banner-free-vector.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+section{
+    background-color: rgb(191, 191, 191);
+    padding-top: 10px;
+}
+.row{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.col{
+    background-color: rgb(78, 76, 76);
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 380px;
+}
+img:hover{
+    box-shadow: 2px 4px rgb(198, 104, 104);
+}
+section span{
+    color: rgb(192, 122, 122);
+    font-size: 20px;
+}
+section button{
+    background-color: chartreuse;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+section button:hover{
+    background-color: aliceblue;
+    color: chartreuse;
+}
+footer{
+    background-color: rgb(90, 89, 89);
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 10px;
+}
+footer h4{
+    color: aliceblue;
+}
